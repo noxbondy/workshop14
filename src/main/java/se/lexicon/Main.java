@@ -11,9 +11,9 @@ public class Main {
         StudentManagement studentManagement = context.getBean(StudentManagement.class);
 
 //create
-        Student student2 = studentManagement.create();
+        Student student1 = studentManagement.create();
         //save
-        Student student1 = studentManagement.save(new Student(100, "Botond"));
+        Student student2 = studentManagement.save(new Student(150, "noxbondy"));
         //findAll
         studentManagement.findAll();
         //edit
