@@ -12,7 +12,7 @@ public class StudentManagementConsoleImpl implements StudentManagement{
 
 private final UserInputService userInputService;
 private  final StudentDao studentDao;
-
+// constrouctor
     public StudentManagementConsoleImpl(UserInputService userInputService, StudentDao studentDao) {
         this.userInputService = userInputService;
         this.studentDao = studentDao;
